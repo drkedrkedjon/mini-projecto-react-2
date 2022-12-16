@@ -3,10 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 
 body {
   background-color: #282828;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 .main {
@@ -16,7 +21,6 @@ body {
    border-radius: 10px;
    overflow: hidden;
    background-color: antiquewhite;
-   padding-bottom: 50rem;
 }
 header {
   background-color: tomato;
@@ -28,5 +32,41 @@ h1 {
   text-align: center;
 }
 
+.container {
+  padding: 2rem;
+}
 
-
+.card {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.card--img {
+  flex-basis: 150px;
+  flex-shrink: 0;
+  aspect-ratio: 3 / 4;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card--img > img {
+  height: 100%;
+  object-fit: cover;
+}
+.card--location {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.card--mapa {
+  color: gray;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0.1rem 0 1rem; 
+}
+.card--fecha {
+  font-weight: 900;
+}
+.card--desc {
+  margin-top: 0.5rem;
+}
