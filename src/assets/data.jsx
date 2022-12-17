@@ -21,7 +21,7 @@ export default [
       title: "Camagüey",
       location: "Cuba",
       googleMapsUrl: "https://duckduckgo.com/?q=camaguey&va=b&t=hc&ia=web&iaxm=maps",
-      startDate: "01 J1n, 1998",
+      startDate: "01 Ene, 1998",
       endDate: "24 Avg, 2006",
       description: "Una ciudad excepcional que pario una mujer con dos peloticas llamada Bembito culi smrda prda. :-D",
       imageUrl: "https://source.unsplash.com/ddnDmvEjesM/w=600"
