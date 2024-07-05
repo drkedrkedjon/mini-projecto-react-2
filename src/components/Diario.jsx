@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './Card'
 import data from '/src/assets/data'
 
+
 export default function Diario() {
   const tarjetas = data.map( tarjeta => {
     return <Card
